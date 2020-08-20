@@ -42,7 +42,7 @@ Let's take a look how this architecture looks like:
  ***Organización del proyecto***
 - Se cuenta con una aplicación Java,una base de datos SQLite3, y algún cliente a desarrollarse. 
 > Esta es una primera version de lo que podría ser 
- ![Project  Architecture](documentation/img-inventory-system.png)
+ ![Project  Architecture](documentation/architecture.png)
 
 
 ## Instalación
