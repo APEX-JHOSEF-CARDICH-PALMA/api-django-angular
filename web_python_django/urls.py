@@ -15,7 +15,21 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from web_python_django.views import saludo, despedida
+
+
+"""
+Este metodo recibe un request como parametro: Es nuestra primera vista.
+para que esta vista sea acesible, se tiene que realizar una configuración 
+en el archivo urls.py, en el que agregaremos la ruta de nuestro hacia esta vista 
+llamada saludo.
+
+Hay que importar la vista saludos y agregarlo en las rutas de abajo..
+"""
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('saludo/', saludo),
+    path('nosveremos/', despedida),
+
 ]
