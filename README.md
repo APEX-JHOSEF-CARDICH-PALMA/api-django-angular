@@ -92,7 +92,7 @@ Se irán definiendo dentro durante el proyecto
 ## Dependencias
 
 Los siguientes paquetes de software son necesarios en el sistema para poder hacer funcional la aplicación:
-- [Python](https://www.python.org/downloads/)
+- [Python 3 ](https://www.python.org/downloads/)
 - [Django](https://www.djangoproject.com/)
 
 
@@ -119,5 +119,19 @@ Cuando se quiera implementar un proyecto en Django por primera vez seguir los si
 $ django-admin startproject 'myproyectocool'
  ```
 
+> 2 - Configurar una base de datos SQLite3 sencilla.. 
+```
+$ python3  manage.py migrate
+ ```
 
+> 3 - Visualizar el funcionamiento del servidor, con un servidor de desarrollo sencillo 
+```
+$ python3  manage.py runserver
+ ```
+ - Entonces podremos observar el siguiente mensaje: 
 
+```
+Django version 3.0.7, using settings 'web_python_django.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+```
